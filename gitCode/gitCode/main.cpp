@@ -51,7 +51,7 @@
 #include<opencv2/core/core.hpp>
 #include<opencv2/highgui/highgui.hpp>
 #include "gray.h"
-
+#include "stdlib.h"
 using namespace cv;
 
 
@@ -64,6 +64,6 @@ int main()
 	imshow("½á¹ûÍ¼", girl);	//show the window
 
 	waitKey();
-
+	system("pause");  //pause the window
 	return 0;
 }
