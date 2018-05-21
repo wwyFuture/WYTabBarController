@@ -63,7 +63,7 @@ int main()
 	namedWindow("结果图");	//create a window
 	imshow("结果图", girl);	//show the window
 
-	waitKey();
+	waitKey();  //wait
 	system("pause");  //pause the window
 	return 0;
 }
