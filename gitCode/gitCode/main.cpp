@@ -50,6 +50,7 @@
 
 #include<opencv2/core/core.hpp>
 #include<opencv2/highgui/highgui.hpp>
+#include "gray.h"
 
 using namespace cv;
 
@@ -58,8 +59,9 @@ int main()
 {
 
 	Mat girl = imread("Tps.png");  //载入图像到Mat
-	namedWindow("原图");	//create a window
-	imshow("原图", girl);	//show the window
+	gray(girl);
+	namedWindow("结果图");	//create a window
+	imshow("结果图", girl);	//show the window
 
 	waitKey();
 
