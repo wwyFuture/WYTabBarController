@@ -51,7 +51,7 @@ using namespace cv;
 int main()
 {
 
-	Mat girl = imread("Tps.png");  //载入图像到Mat
+	Mat girl = imread("Tps.png");  //download img to Mat
 	gray(girl);//
 	namedWindow("结果图");	//create a window
 	imshow("结果图", girl);	//show the window
